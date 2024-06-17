@@ -1,0 +1,21 @@
+#Rohan calculator#
+print("+add,-substract,*multiple,/divide,**exponent")
+num1=int(input("Enter num 1 :"))
+num2=int(input("Enter num 2 :"))
+opr=input("Enter the opr..(+,-,*,/,**,&)")
+if opr== "+" :
+    print(num1+num2)
+elif opr== "-" :
+    print(num1-num2)
+elif opr== "*" :
+    print(num1*num2)
+elif opr== "/" :
+    print(num1/num2)
+elif opr== "**" :
+    print(num1**num2)
+elif opr== "%" :
+    print(num1%num2)
+elif opr==  "&":
+    print(num1&num2)
+else:
+    print("in valid")
